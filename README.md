@@ -9,6 +9,14 @@ Removes em and en dashes and stray space-hyphen-space in ChatGPT messages, then 
 
 It never edits inside code, pre blocks, inputs, or editable areas.
 
+## Before and After
+
+**Before:**
+![Before](https://github.com/simonsickle/em-exorcist/raw/main/before.png)
+
+**After:**
+![After](https://github.com/simonsickle/em-exorcist/raw/main/after.png)
+
 ## Install (Chrome)
 1. Open `chrome://extensions`
 2. Enable Developer Mode
