@@ -5,7 +5,7 @@
   "description": "Removes em/en dashes and stray hyphen punctuation in ChatGPT messages, fixes capitalization, and stays fast.",
   "permissions": ["storage"],
   "icons": {
-    "512": "icon.png"
+    "1024": "icon.png"
   },
   "host_permissions": [
     "https://chatgpt.com/*"
@@ -23,6 +23,7 @@
   },
   "browser_specific_settings": { 
     "gecko": { 
+        "id": "simon@sickle.family",
         "strict_min_version": "115.0"
     }
   }

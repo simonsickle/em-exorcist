@@ -17,12 +17,16 @@ It never edits inside code, pre blocks, inputs, or editable areas.
 **After:**
 ![After](https://github.com/simonsickle/em-exorcist/raw/main/after.png)
 
-## Install (Chrome)
+## Install
+
+**Firefox:** [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/em-dash-exorcist/)
+
+**Chrome (manual install):**
 1. Open `chrome://extensions`
 2. Enable Developer Mode
 3. Load unpacked and select the `emdash-exorcist` folder
 
-## Install (Firefox)
+**Firefox (manual install):**
 1. Open `about:debugging#/runtime/this-firefox`
 2. Load Temporary Add-on
 3. Pick any file in the `emdash-exorcist` folder
