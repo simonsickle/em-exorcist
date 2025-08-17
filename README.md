@@ -12,10 +12,10 @@ It never edits inside code, pre blocks, inputs, or editable areas.
 ## Before and After
 
 **Before:**
-![Before](https://github.com/simonsickle/em-exorcist/raw/main/before.png)
+![Before](https://raw.githubusercontent.com/simonsickle/em-exorcist/refs/heads/main/assets/before.png)
 
 **After:**
-![After](https://github.com/simonsickle/em-exorcist/raw/main/after.png)
+![After](https://raw.githubusercontent.com/simonsickle/em-exorcist/refs/heads/main/assets/after.png)
 
 ## Install
 
