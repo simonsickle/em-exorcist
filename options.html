@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Em-Dash Exorcist Options</title>
+<link rel="stylesheet" href="options.css">
+<section>
+  <h1>Replacement style</h1>
+  <label class="row">
+    <span>Replace with</span>
+    <select id="mode">
+      <option value="period">“. ” (period)</option>
+      <option value="comma">“, ” (comma)</option>
+      <option value="ensp">“ – ” (spaced en dash)</option>
+    </select>
+  </label>
+  <p class="hint">Period mode also capitalizes the next letter.</p>
+</section>
+<script>
+  const el = document.getElementById('mode');
+  chrome.storage.sync.get({ mode: 'period' }, ({ mode }) => el.value = mode);
+  el.addEventListener('change', () => chrome.storage.sync.set({ mode: el.value }));
+</script>
